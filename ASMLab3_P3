@@ -1,0 +1,10 @@
+		MVN		r0, #0x80000000
+		MVN		r1, #0
+		MOV		r2, #0
+		MOV		r3, #0
+		MOV		r4, #0
+		MOV		r5, #0
+		ADD		r2, r0, #1
+		ADDS		r3, r0, #1
+		ADD		r4, r1, #1
+		ADDS		r5, r1, #1

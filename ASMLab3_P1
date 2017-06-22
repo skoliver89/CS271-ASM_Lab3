@@ -1,0 +1,34 @@
+		;Load	some starting values
+		MVN		r0, #0	;Max int
+		MOV		r1, #100
+		MOV		r2, #200
+		
+		;r3		= r1 + r2
+		ADD		r3, r1, r2
+		
+		;r4		= r1 + 1
+		ADD		r4, r1, #1
+		
+		;r4++
+		ADD		r4, r4, #1
+		
+		;load	some more values
+		MOV		r5, #50
+		MOV		r6, #200
+		
+		;r6		= r6 - r5
+		SUB		r6, r6, r5
+		
+		;r7		= r5 - r6
+		SUB		r7, r5, r6
+		
+		;r8		= r5 - 10
+		SUB		r8, r5, #10
+		;SUB		r8, #10, r5  @Invallid! Immed value must be last
+		
+		;RSUB	reverses the order of the operands
+		;r7		= r5 - r6 using RSUB
+		RSB		r7, r6, r5
+		
+		;r9		= 10 - r5
+		RSB		r9, r5, #10

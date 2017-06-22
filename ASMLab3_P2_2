@@ -1,0 +1,7 @@
+		MOV		r0, #2048
+		SUB		r0, r0, #1024
+		SUB		r0, r0, #512
+		SUB		r0, r0, #256
+		SUB		r0, r0, #128
+		SUB		r0, r0, #96
+		SUB		r0, r0, #32

@@ -1,0 +1,6 @@
+		MOV		r0, #32
+		ADD		r0, r0, #96
+		ADD		r0, r0, #128
+		ADD		r0, r0, #256
+		ADD		r0, r0, #512
+		ADD		r0, r0, #1024
